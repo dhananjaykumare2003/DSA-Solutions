@@ -1,3 +1,6 @@
+Time Complexity :- O(V+E) + O(ElogE) + O(E * 4* alpha)
+Space Complexity :- O(E)
+
 int spanningTree(int V, vector<vector<int>> adj[]) {
         vector<pair<int,pair<int,int>>> edges;
         for(int i = 0; i < V; i++){
